@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   meta = {
     homepage = "https://getantibody.github.io/";
     description = "The fastest shell plugin manager. A faster and simpler antigen written in Golang.";
-    platforms = stdenv.lib.platfoems.darwin;
+    platforms = stdenv.lib.platforms.darwin;
   };
 
   # Work around the "unpacker appears to have produced no directories"
